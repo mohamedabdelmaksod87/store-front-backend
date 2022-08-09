@@ -14,8 +14,8 @@ in case you want to use another database name, username or password of your choi
 
 3- create a .env file and add it to project root then set the following enviroment variables:
 
-- DATABASE_URL=postgres://postgres:Master2012!@localhost:5432/store
-- DATABASE_URL_TEST=postgres://postgres:Master2012!@localhost:5432/test
+- DATABASE_URL=postgres://postgres:user123@localhost:5432/store
+- DATABASE_URL_TEST=postgres://postgres:user123@localhost:5432/test
 - NODE_ENV=dev
 - POSTGRES_HOST=localhost
 - POSTGRES_PORT=5432
