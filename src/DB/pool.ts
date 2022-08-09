@@ -3,10 +3,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const db = new Pool({
-  connectionString: process.env.DATABASE_URL,
-  max: 20,
-  idleTimeoutMillis: 60000,
-  connectionTimeoutMillis: 5000,
+  connectionString:
+    process.env.NODE_ENV === "dev"
+      ? process.env.DATABASE_URL
+      : process.env.DATABASE_URL_TEST,
 });
 
 export default db;
