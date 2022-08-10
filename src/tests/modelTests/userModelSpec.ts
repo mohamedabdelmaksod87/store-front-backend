@@ -1,5 +1,5 @@
-import { UserModel, UserInfo } from "../models/user";
-import { resetTable } from "./helpers/prepare";
+import { UserModel, UserInfo } from "../../models/user";
+import { resetTable } from "../helpers/prepare";
 
 const user = new UserModel();
 

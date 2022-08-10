@@ -1,5 +1,5 @@
-import { ProductModel, Product } from "../models/product";
-import { resetTable } from "./helpers/prepare";
+import { ProductModel, Product } from "../../models/product";
+import { resetTable } from "../helpers/prepare";
 
 const product = new ProductModel();
 

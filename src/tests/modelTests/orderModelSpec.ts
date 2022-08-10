@@ -1,5 +1,10 @@
-import { OrderModel, Order, OrderProduct, UserOrder } from "../models/orders";
-import { prepareDB, resetTable } from "./helpers/prepare";
+import {
+  OrderModel,
+  Order,
+  OrderProduct,
+  UserOrder,
+} from "../../models/orders";
+import { prepareDB, resetTable } from "../helpers/prepare";
 const order = new OrderModel();
 
 describe("Testing Order Model", (): void => {

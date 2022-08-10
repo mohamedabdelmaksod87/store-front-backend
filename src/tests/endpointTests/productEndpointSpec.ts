@@ -1,7 +1,7 @@
 import supertest from "supertest";
-import app from "..";
-import { resetTable } from "./helpers/prepare";
-import { Product } from "../models/product";
+import app from "../..";
+import { resetTable } from "../helpers/prepare";
+import { Product } from "../../models/product";
 
 const request = supertest(app);
 

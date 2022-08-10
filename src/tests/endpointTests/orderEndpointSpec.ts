@@ -1,6 +1,6 @@
 import supertest from "supertest";
-import app from "..";
-import { resetTable } from "./helpers/prepare";
+import app from "../..";
+import { resetTable } from "../helpers/prepare";
 
 const request = supertest(app);
 
