@@ -4,13 +4,13 @@
 
 1- in terminal run ==> npm install
 
-2- create a dev database: name(store), username(postgres), password(12345)
+2- create a dev database: name(store), user(postgres), password(12345)
 
-3- create a test database: name(test), username(postgres), password(12345)
+3- create a test database: name(test), user(postgres), password(12345)
 
 ### Note:
 
-in case you want to use another database name, username or password of your choise you will need to replace those data in .env file CONNECT & CONNECT_TEST env variables
+in case you want to use another database name, username or password of your choise you will need to replace with those in the .env file
 
 3- create a .env file and add it to project root then set the following enviroment variables:
 
@@ -18,8 +18,12 @@ in case you want to use another database name, username or password of your choi
 - PEPPER=!&SKLD-A977$%-4
 - TOKEN_SECRET=cc%orr!ek45
 - PORT=3000
-- CONNECT=postgres://postgres:12345@localhost:5432/store
-- CONNECT_TEST=postgres://postgres:12345@localhost:5432/test
+- DB_HOST=localhost
+- DB_PORT=5432
+- DB_USER=postgres
+- DB_PASSWORD=12345
+- DB_NAME=store
+- DB_TEST_NAME=test
 
 ## Testing
 
